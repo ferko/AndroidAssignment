@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">Assignment3</string>
+    <string name="menu_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="pass">Password:</string>
+    <string name="invalid">Invalid username or password!</string>
+    <string name="title_activity_login">Assignment3</string>
+    <string name="takequiz">Take Quiz</string>
+    <string name="createuser">Create User</string>
+    <string name="exit">Exit</string>
+    <string name="welcome">Welcome</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="studentnumber">Student Number</string>
+    <string name="username">Username</string>
+    <string name="password">Enter Password:</string>
+    <string name="reenter">Re-Enter Password:</string>
+    <string name="yourscore">Your Score:</string>
+    
+
+</resources>

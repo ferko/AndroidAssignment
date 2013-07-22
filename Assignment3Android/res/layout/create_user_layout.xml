@@ -1,0 +1,125 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+ >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+  
+    <TextView
+        android:id="@+id/fn_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/firstname" />
+
+    <EditText
+        android:id="@+id/fn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fn_label"
+        android:ems="5"
+        android:inputType="text" />
+    
+    <TextView
+        android:id="@+id/ln_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fn"
+        android:text="@string/lastname" />
+
+    <EditText
+        android:id="@+id/ln"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln_label"
+        android:ems="5"
+        android:inputType="text" />
+    
+    <TextView
+        android:id="@+id/sn_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ln"
+        android:text="@string/studentnumber" />
+
+    <EditText
+        android:id="@+id/sn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sn_label"
+        android:ems="5"
+        android:inputType="text" />
+    
+    <TextView
+        android:id="@+id/username_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sn"
+        android:text="@string/username" />
+       
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_label"
+        android:ems="5"
+        android:inputType="text" />
+    
+    <TextView
+        android:id="@+id/pass_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:text="@string/pass" />
+    
+     <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pass_label"
+        android:ems="5"
+        android:inputType="text" />
+     
+     <TextView
+        android:id="@+id/reenter_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:text="@string/reenter" />
+     
+	<EditText
+        android:id="@+id/reenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reenter_label"
+        android:ems="5"
+        android:inputType="text" />
+	<TextView
+        android:id="@+id/error_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reenter" 
+        android:textColor="#ff0000"/>
+	<Button 
+	    android:id="@+id/create_button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/error_label" 
+	    android:text="Create" />
+
+	<Button
+	    android:id="@+id/cancel_button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/create_button"
+	    android:layout_toRightOf="@+id/create_button"
+	    android:text="Cancel" />
+	
+</RelativeLayout>
+</ScrollView>
